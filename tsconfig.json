@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "lib": ["dom", "es7"],
+    "target": "ES2016",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "typeRoots": ["./src/**/*types*.ts", "node_modules/@types"]
+  },
+  "typeAcquisition": {
+    "include": ["jest"]
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.test.ts"]
+}

@@ -1,0 +1,50 @@
+{
+  "lists": [
+    {
+      "id": "ff75fde739",
+      "web_id": 1144451,
+      "name": "N/A",
+      "contact": [Object],
+      "permission_reminder": "You are receiving this email because you opted in via our website.",
+      "use_archive_bar": true,
+      "campaign_defaults": [Object],
+      "notify_on_subscribe": "",
+      "notify_on_unsubscribe": "",
+      "date_created": "2023-04-12T21:51:00+00:00",
+      "list_rating": 0,
+      "email_type_option": false,
+      "subscribe_url_short": "http://eepurl.com/ioZnAc",
+      "subscribe_url_long": "https://gmail.us13.list-manage.com/subscribe?u=4c14c37749ccd40d54ac5836a&id=ff75fde739",
+      "beamer_address": "us13-e660197c9c-a56315eb90@inbound.mailchimp.com",
+      "visibility": "prv",
+      "double_optin": false,
+      "has_welcome": false,
+      "marketing_permissions": false,
+      "modules": [],
+      "stats": [Object],
+      "_links": [Array]
+    }
+  ],
+  "total_items": 1,
+  "constraints": {
+    "may_create": false,
+    "max_instances": 1,
+    "current_total_instances": 1
+  },
+  "_links": [
+    {
+      "rel": "self",
+      "href": "https://us13.api.mailchimp.com/3.0/lists",
+      "method": "GET",
+      "targetSchema": "https://us13.api.mailchimp.com/schema/3.0/Definitions/Lists/CollectionResponse.json",
+      "schema": "https://us13.api.mailchimp.com/schema/3.0/Paths/Lists/Collection.json"
+    },
+    {
+      "rel": "create",
+      "href": "https://us13.api.mailchimp.com/3.0/lists",
+      "method": "POST",
+      "targetSchema": "https://us13.api.mailchimp.com/schema/3.0/Definitions/Lists/Response.json",
+      "schema": "https://us13.api.mailchimp.com/schema/3.0/Definitions/Lists/POST.json"
+    }
+  ]
+}
